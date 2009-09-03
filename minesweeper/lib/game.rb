@@ -1,10 +1,9 @@
 class Game
-  def initialize(board, output)
-    @board, @output = board, output
+  def initialize(board)
+    @board = board
   end
 
   def quit
-    @board.reveal_on(@output)
   end
 end
 
